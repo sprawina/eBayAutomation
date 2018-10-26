@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Website loaded.]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage validated.]]>
+    </line>
+    <line>
+      <![CDATA[Sign-In successful.]]>
+    </line>
+    <line>
+      <![CDATA[Product search complete.]]>
+    </line>
+    <line>
+      <![CDATA[Product selection done.]]>
+    </line>
+    <line>
+      <![CDATA[Product details validated.]]>
+    </line>
+    <line>
+      <![CDATA[Item added to cart.]]>
+    </line>
+    <line>
+      <![CDATA[Item checkout done.]]>
+    </line>
+    <line>
+      <![CDATA[Checkout validated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="107897" started-at="2018-10-26T11:18:38Z" finished-at="2018-10-26T11:20:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="107897" started-at="2018-10-26T11:18:38Z" finished-at="2018-10-26T11:20:25Z">
+      <class name="com.eBayTest.TestCases.AddToCart">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.eBayTest.TestCases.AddToCart@87f383f]" name="setup" is-config="true" duration-ms="13260" started-at="2018-10-26T11:18:24Z" finished-at="2018-10-26T11:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logOutCheck()[pri:0, instance:com.eBayTest.TestCases.AddToCart@87f383f]" name="logOutCheck" is-config="true" duration-ms="6857" started-at="2018-10-26T11:18:38Z" finished-at="2018-10-26T11:18:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Website loaded.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutCheck -->
+        <test-method status="PASS" signature="ebayShop()[pri:0, instance:com.eBayTest.TestCases.AddToCart@87f383f]" name="ebayShop" duration-ms="91671" started-at="2018-10-26T11:18:44Z" finished-at="2018-10-26T11:20:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage validated.]]>
+            </line>
+            <line>
+              <![CDATA[Sign-In successful.]]>
+            </line>
+            <line>
+              <![CDATA[Product search complete.]]>
+            </line>
+            <line>
+              <![CDATA[Product selection done.]]>
+            </line>
+            <line>
+              <![CDATA[Product details validated.]]>
+            </line>
+            <line>
+              <![CDATA[Item added to cart.]]>
+            </line>
+            <line>
+              <![CDATA[Item checkout done.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ebayShop -->
+        <test-method status="PASS" signature="logOutAfterTest()[pri:0, instance:com.eBayTest.TestCases.AddToCart@87f383f]" name="logOutAfterTest" is-config="true" duration-ms="9346" started-at="2018-10-26T11:20:16Z" finished-at="2018-10-26T11:20:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkout validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutAfterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eBayTest.TestCases.AddToCart@87f383f]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-26T11:20:26Z" finished-at="2018-10-26T11:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eBayTest.TestCases.AddToCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
